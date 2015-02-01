@@ -2,7 +2,7 @@ body {
     background-color: rgb(67,67,67);
     background-image: url(../images/static.png);
     color: #eeeae1;
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Signika', sans-serif;
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ body > header section {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 215px;
     text-shadow:
         0 1px 0 #999,
         0 2px 0 #888,
@@ -78,8 +78,9 @@ h1 {
 
 body > header p {
     font-family: 'Lobster', cursive;
+    font-weight: 400;
     font-size: 46px;
-    margin-top: -40px;
+    margin-top: -20px;
     text-shadow:
         0 1px 0 #999,
         0 2px 0 #777,
