@@ -73,9 +73,37 @@ h1 {
         0 5px 0 #555,
         0 6px 0 #444,
         0 7px 0 #333,
-        0 8px 7px #221125;
+        0 8px 7px #141414;
 }
 
 body > header p {
-    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+    margin-top: -40px;
+    text-shadow:
+        0 1px 0 #999,
+        0 2px 0 #777,
+        0 3px 0 #555,
+        0 4px 0 #333,
+        0 5px 5px #141414;
+}
+
+.green {
+    color:#46e54e;
+    text-shadow:
+        0 1px 0 #31af37,
+        0 2px 0 #296f2e,
+        0 3px 0 #255f27,
+        0 4px 0 #1c351c,
+        0 5px 5px #101810;
+}
+
+.pink {
+    color:#df4d79;
+    text-shadow:
+        0 1px 0 #b8376a,
+        0 2px 0 #92345a,
+        0 3px 0 #692a42,
+        0 4px 0 #411f2c,
+        0 5px 5px #24131a;
 }
