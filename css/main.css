@@ -1,15 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
-
 body {
-    font-family: 'Hammersmith One', sans-serif;
     background-color: rgb(67,67,67);
-    color: #eeeae1;
-    text-align: center
     background-image: url(../images/static.png);
+    color: #eeeae1;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
 }
 
-#pageheader {
-    height:700px;
+body > header {
     background-image:
         repeating-linear-gradient(
             -30deg,
@@ -51,4 +48,5 @@ body {
             rgba(255,205,205,0.05) 180px,
             transparent 180px
         );
+    height:700px;
 }
