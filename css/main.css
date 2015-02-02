@@ -60,7 +60,7 @@ body > header {
 }
 
 body > header section {
-    padding-top: 250px;
+    padding-top: 218px;
 }
 
 h1 {
@@ -78,8 +78,8 @@ h1 {
 
 body > header p {
     font-family: 'Lobster', cursive;
-    font-weight: 400;
     font-size: 46px;
+    font-weight: 400;
     margin-top: -20px;
     text-shadow:
         0 1px 0 #999,
@@ -107,4 +107,40 @@ body > header p {
         0 3px 0 #692a42,
         0 4px 0 #411f2c,
         0 5px 5px #24131a;
+}
+
+/* Nav panel */
+
+nav {
+    background-image:
+        linear-gradient(
+            0,
+            rgba(94, 108, 182, 0.8),
+            rgba(94, 108, 182, 0.8)
+        ),
+        url(../images/static.png);
+    box-shadow:
+        0 1px 0 #4a4e8a,
+        0 2px 0 #474678,
+        0 3px 0 #424064,
+        0 4px 0 #373756,
+        0 5px 0 #2c2c42,
+        0 6px 0 #242435,
+        0 7px 0 #191927,
+        0 8px 7px #07071b;
+    height: 100px;
+    z-index: 1;
+}
+
+nav li {
+    display: inline-block;
+    margin: 32px;
+}
+
+nav a {
+    color: rgb(64, 78, 132);
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgb(114, 128, 182);
 }
