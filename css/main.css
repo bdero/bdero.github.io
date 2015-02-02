@@ -231,19 +231,32 @@ nav {
         0 6px 0 #242435,
         0 7px 0 #191927,
         0 8px 7px #07071b;
-    height: 100px;
+    height: 50px;
     margin-top: 700px;
 }
 
 nav li {
     display: inline-block;
-    margin: 32px;
+    margin-top: 13px;
+}
+
+nav li:not(:last-child) {
+    margin-right: 42px;
 }
 
 nav a {
     color: rgb(64, 78, 132);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-decoration: none;
     text-shadow: 0 1px 1px rgb(114, 128, 182);
+    -webkit-transition: color 0.7s, text-shadow, 0.7s;
+    -moz-transition: color 0.7s, text-shadow, 0.7s;
+    -o-transition: color 0.7s, text-shadow, 0.7s;
+    transition: color 0.7s, text-shadow, 0.7s;
+}
+
+nav a:hover {
+    color: rgb(154, 168, 202);
+    text-shadow: 0 1px 1px rgb(84, 98, 152);
 }
