@@ -9,12 +9,20 @@ header, nav {
 .comingsoon {
     color: #454545;
     font-size: 150px;
-    margin: auto;
     padding: 10px 0;
     position: absolute;
     text-shadow: 0 1px 1px #777;
     top: 400px;
-    transform: perspective(500px) rotateX(50deg);
-    width: 600;
+    width: 100%;
     z-index: 0;
+}
+
+.comingsoon p {
+    margin: auto;
+    transform: perspective(500px) rotateX(50deg);
+    width: 730px;
+}
+
+body {
+    overflow-x: hidden;
 }
