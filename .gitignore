@@ -1,0 +1,6 @@
+# ruby
+bin
+.bundle
+
+# jekyll
+_site
