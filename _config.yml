@@ -1,3 +1,3 @@
 markdown: redcarpet
 baseurl: ''
-exclude: ['Gemfile', 'bin', 'README.md']
+exclude: ['Gemfile', 'bin', 'README.md', 'LICENSE.md']
