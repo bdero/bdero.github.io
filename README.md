@@ -1,8 +1,6 @@
 [bdero.me](http://bdero.me)
 ===========================
-A personal static site. [![Stories in Ready](https://badge.waffle.io/bdero/bdero.github.io.svg?label=ready&title=Ready)](http://waffle.io/bdero/bdero.github.io)
-
-![Screen capture](https://i.imgur.com/uFuPBJ7.png)
+A personal static site. Largely abandoned. :/
 
 
 Building with Jekyll
