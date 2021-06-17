@@ -52,6 +52,22 @@
 
         <div class="category" id="interactive">
             <h2>Interactive Media</h2>
-        </div>
+        </div> 
     </body>
+    <script>
+      let d = new Date()
+      if (d.getDate() === 16 && d.getMonth() == 5) {
+        let pDay = document.createElement('div')
+        pDay.id = 'pday'
+
+        pDay.innerHTML = '<h1 style="font-size: 42px; margin-bottom: 20px">Sad Picard Day :(</h1><img style="width: 75%;" src="./images/sad_picard.jpg" />';
+        let title = document.querySelector('h1');
+        title.parentNode.replaceChild(pDay, title);
+         setTimeout(function() {
+           let happyPDay = document.createElement('div')
+           happyPDay.innerHTML = '<h1 style="font-size: 42px; margin-bottom: 20px">Happy Picard Day :)</h1><img style="width: 75%;" src="./images/happy_picard.jpg" />';
+          pday.parentNode.replaceChild(happyPDay, pDay);
+        }, 3000);
+      }
+    </script>
 </html>
